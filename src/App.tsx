@@ -1,11 +1,10 @@
-import {
-  RecoilRoot
-} from 'recoil';
+import TodoTemplate from "./components/TodoTemplate/TodoTemplate";
 
 function App() {
   return (
-    <RecoilRoot>
-    </RecoilRoot>
+    <div>
+      <TodoTemplate />
+    </div>
   );
 }
 
