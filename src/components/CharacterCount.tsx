@@ -11,7 +11,7 @@ const charCountState = selector({
     },
 });
 
-const CharacterCount = () => {
+const CharacterCount:React.FunctionComponent = () => {
     const count = useRecoilValue(charCountState);
     return (
         <>

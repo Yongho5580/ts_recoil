@@ -2,9 +2,9 @@ import React from "react";
 import TextInput from "./TextInput";
 import CharacterCount from "./CharacterCount";
 
-const CharacterCounter = () => {
+const CharacterCounter:React.FunctionComponent = () => {
   return (
-    <div>
+    <div className="characterCounter">
       <TextInput />
       <CharacterCount />
     </div>
